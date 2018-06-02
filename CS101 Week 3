@@ -1,0 +1,78 @@
+# *******************************************************************
+# 03: CS101 Team Activity
+# 
+# These are simple coding problems.  You will not be submitted anything
+# for points.  Please work together on this.  Add your code for every
+# TODO section.  Copy this code to Thonny, or your python system.
+# *******************************************************************
+
+# TODO -> "Hello World"
+print('Hello World')
+
+
+# TODO -> "Hello World is length 11", using the len() function
+H1 = 'Hello World'
+print('Hello World is length', len('Hello World'))
+print(H1, 'is length', len(H1))
+
+# TODO -> "John Brown" using these variables using + operator
+name1 = 'John'
+name2 = 'Brown'
+print(name1 + " " + name2)
+
+
+# TODO -> "John Brown" using these variables using , (commas) in the print statement
+#         Use the varlables from above
+print(name1, name2)
+
+# TODO -> "John Brown is 34 years old" 
+age = 34
+print(name1, name2, 'is', age, 'years old') 
+
+# TODO -> "ABC" 
+print('{0}{1}{2}'.format('A', 'B', 'C'))
+
+
+# TODO -> "CBA"
+print('{2}{1}{0}'.format('A', 'B', 'C'))
+
+
+# TODO -> "ABCBA" 
+print('{0}{1}{2}{1}{0}'.format('A', 'B', 'C'))
+
+
+# TODO -> "AABBCC"
+print('{0}{0}{1}{1}{2}{2}'.format('A', 'B', 'C'))
+
+
+# TODO -> "John"
+print('{0}{3}{1}{2}'.format('J', 'h', 'n', 'o'))
+
+
+# TODO -> "John Brown is 34 years old" using the format() function
+name1 = 'John'
+name2 = 'Brown'
+age = 34
+print( '{0} {1} is {2} years old'.format(name1, name2, age))
+
+# -------------------------------------------------------------------
+# Extra Challenge
+
+# TODO -> Calculate the average of the following variables
+#         Use the int() funtion.
+#         "The average of [123, 23, 13] is 54"
+value1 = '123'
+value2 = '23'
+value3 = '16'
+ 
+V1 = int(value1)
+V2 = int(value2)
+V3 = int(value3)
+print('The average of ' + '[' + value1 + ', ' + value2 + ', ' + value3 + ']' + ' is ' + str(int((V1 + V2 + V3)/3)))
+print('The average of [' + value1 + ', ' + value2 + ', ' + value3 + '] is ' +  str(int((V1 + V2 + V3)/3)))
+
+# TODO -> "John Brown"
+name1 = 'john'
+name2 = 'brown'
+
+print(name1.title(), name2.title())
